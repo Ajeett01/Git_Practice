@@ -4,6 +4,8 @@ import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import axios from 'axios';
 
+// I will try my best at every challenge I face in my life
+
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const API_URL = `${BACKEND_URL}/api/tasks`;
