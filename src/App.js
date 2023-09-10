@@ -3,6 +3,7 @@ import { Container, Grid } from '@mui/material';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import axios from 'axios';
+import BasicPopover from './PopOver';
 import TemporaryDrawer from './components/Drawer';
 
 // I will try my best at every challenge I face in my life
@@ -72,6 +73,7 @@ const App = () => {
           />
         </Grid>
       </Grid>
+      <BasicPopover/>
     </Container>
   );
 };
