@@ -81,3 +81,5 @@ const App = () => {
 };
 
 export default App;
+
+// Trying to check last addition in the App.js

@@ -10,4 +10,5 @@ root.render(
   </React.StrictMode>
 );
 
+// This file is usually chill , not much work to do only throws errors 
 
