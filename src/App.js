@@ -3,6 +3,7 @@ import { Container, Grid } from '@mui/material';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import axios from 'axios';
+import TemporaryDrawer from './components/Drawer';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
@@ -55,6 +56,7 @@ const App = () => {
 
   return (
     <Container>
+      <TemporaryDrawer/>
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <LeftSection onAddTask={handleAddTask} />
