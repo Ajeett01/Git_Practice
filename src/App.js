@@ -7,6 +7,7 @@ import BasicPopover from './PopOver';
 import TemporaryDrawer from './components/Drawer';
 
 // I will try my best at every challenge I face in my life
+import BasicSpeedDial from './DrawerAdded';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
@@ -73,6 +74,7 @@ const App = () => {
           />
         </Grid>
       </Grid>
+      <BasicSpeedDial/>
       <BasicPopover/>
     </Container>
   );
