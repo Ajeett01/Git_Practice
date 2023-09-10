@@ -1,3 +1,7 @@
+// You know sometimes we just mess thing up , we can easily fix them 
+
+// Just do your 100% and leave the result on God
+
 import React, { useState } from 'react';
 import axios from 'axios';
 import {
