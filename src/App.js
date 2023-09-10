@@ -3,6 +3,7 @@ import { Container, Grid } from '@mui/material';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import axios from 'axios';
+import BasicPopover from './PopOver';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
@@ -68,6 +69,7 @@ const App = () => {
           />
         </Grid>
       </Grid>
+      <BasicPopover/>
     </Container>
   );
 };
