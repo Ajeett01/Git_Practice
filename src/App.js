@@ -3,6 +3,7 @@ import { Container, Grid } from '@mui/material';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
 import axios from 'axios';
+import TemporaryDrawer from './components/Drawer';
 
 // I will try my best at every challenge I face in my life
 
@@ -57,6 +58,7 @@ const App = () => {
 
   return (
     <Container>
+      <TemporaryDrawer/>
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <LeftSection onAddTask={handleAddTask} />
